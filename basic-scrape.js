@@ -90,6 +90,6 @@ var orderedObjs = componentObjsBasic.concat(
 
 console.log(orderedObjs);
 
-const targetFile = "./json-files/basic.json";
+const targetFile = "./dist/dist.json";
 
 fs.writeFileSync(targetFile, JSON.stringify(orderedObjs));
